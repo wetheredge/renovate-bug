@@ -3,7 +3,10 @@
   "packageRules": [
     {
       "matchFiles": [
-        "*"
+        "Cargo.toml"
+      ],
+      "matchDepTypes": [
+        "dependencies"
       ],
       "rangeStrategy": "widen"
     }
